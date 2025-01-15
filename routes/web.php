@@ -18,5 +18,6 @@ use App\Http\Controllers\DemoProductController;
 Route::get('/product',[productController::class, 'createProduct']);
 Route::post('/product', [productController::class, 'submitProduct']);
 Route::get('/demoproduct',[DemoProductController::class, 'demoproduct']);
-Route::post('/demoproduct',[DemoProductController::class, 'submitdemoproduct']);
+Route::post('/demoproduct',[DemoProductController::class, 'submitDemoproduct']);
+Route::get('/github',[DemoProductController::class, 'gtihub']);
 
